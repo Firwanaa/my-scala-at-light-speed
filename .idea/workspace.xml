@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ece956b-8255-45c5-8d9a-54c42d2b1ffe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/rockthejvm/PatternMatching.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/rockthejvm/FunctionalProgramming.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/rockthejvm/FunctionalProgramming.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +52,22 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FunctionalProgramming">
+  <component name="RunManager" selected="Application.PatternMatching">
     <configuration name="FunctionalProgramming" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.rockthejvm.FunctionalProgramming" />
+      <module name="scala-at-light-speed" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rockthejvm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PatternMatching" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.rockthejvm.PatternMatching" />
       <module name="scala-at-light-speed" />
       <extension name="coverage">
         <pattern>
@@ -79,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PatternMatching" />
         <item itemvalue="Application.FunctionalProgramming" />
         <item itemvalue="Application.Playground" />
       </list>
