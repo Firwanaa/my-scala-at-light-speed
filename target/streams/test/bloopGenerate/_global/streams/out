@@ -1,0 +1,4 @@
+[debug] [scala-at-light-speed-test] Classpath dependencies List()
+[debug] [scala-at-light-speed-test] Dependencies from configurations List(scala-at-light-speed)
+[debug] Bloop wrote the configuration of project 'scala-at-light-speed-test' to '/run/media/qq/qq2/Dev/scala/scala-at-light-speed/.bloop/scala-at-light-speed-test.json'
+[success] Generated .bloop/scala-at-light-speed-test.json

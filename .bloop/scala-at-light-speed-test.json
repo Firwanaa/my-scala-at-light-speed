@@ -1,0 +1,147 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "scala-at-light-speed-test",
+        "directory": "/run/media/qq/qq2/Dev/scala/scala-at-light-speed",
+        "workspaceDir": "/run/media/qq/qq2/Dev/scala/scala-at-light-speed",
+        "sources": [
+            "/run/media/qq/qq2/Dev/scala/scala-at-light-speed/src/test/scala-2.13",
+            "/run/media/qq/qq2/Dev/scala/scala-at-light-speed/src/test/scala",
+            "/run/media/qq/qq2/Dev/scala/scala-at-light-speed/src/test/java",
+            "/run/media/qq/qq2/Dev/scala/scala-at-light-speed/target/scala-2.13/src_managed/test"
+        ],
+        "dependencies": [
+            "scala-at-light-speed"
+        ],
+        "classpath": [
+            "/run/media/qq/qq2/Dev/scala/scala-at-light-speed/.bloop/scala-at-light-speed/scala-2.13/classes",
+            "/home/qq/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"
+        ],
+        "out": "/run/media/qq/qq2/Dev/scala/scala-at-light-speed/.bloop/scala-at-light-speed",
+        "classesDir": "/run/media/qq/qq2/Dev/scala/scala-at-light-speed/.bloop/scala-at-light-speed/scala-2.13/test-classes",
+        "resources": [
+            "/run/media/qq/qq2/Dev/scala/scala-at-light-speed/src/test/resources",
+            "/run/media/qq/qq2/Dev/scala/scala-at-light-speed/target/scala-2.13/resource_managed/test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.1",
+            "options": [
+                
+            ],
+            "jars": [
+                "/home/qq/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar",
+                "/home/qq/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.1/scala-compiler-2.13.1.jar",
+                "/home/qq/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar",
+                "/home/qq/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar",
+                "/home/qq/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/usr/lib/jvm/java-11-openjdk",
+                "options": [
+                    "-Duser.dir=/run/media/qq/qq2/Dev/scala/scala-at-light-speed"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/qq/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/qq/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.1",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/qq/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/qq/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
